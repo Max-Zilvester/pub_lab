@@ -48,5 +48,5 @@ class TestPub(unittest.TestCase):
         self.assertEqual(True, 5 in self.pub.drinks.values())
 
     def test_pub_stock_total_value(self):
-        self.pub.stock_total_value()
+        self.pub.stock_total_value(self.drink)
         self.assertEqual(50, sum(self.pub.drinks(values))
