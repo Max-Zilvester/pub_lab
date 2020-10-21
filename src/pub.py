@@ -9,3 +9,6 @@ class Pub:
     def sell_a_drink(self, drink, customer):
         if customer.age >= 18 and customer.drunkeness_level < 15:
             self.till += drink.price
+
+    def stock_total_value(self, drink):
+        total_value = 
